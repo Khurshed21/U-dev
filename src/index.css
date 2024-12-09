@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: roboto;
+    src: url(../src/components/Roboto-Thin.ttf);
+}
+.roboto{
+    font-family: roboto;
+}
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('./components/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
